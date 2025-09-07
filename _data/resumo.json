@@ -1,7 +1,7 @@
 [
   {
     "titulo": "Terça Feira",
-    "color": "bg-blue-600",
+    "cor": "bg-blue-600",
     "escalas": [
       { "titulo": "Escala 1", "id": "terca-feira-escala-1" },
       { "titulo": "Escala 2", "id": "terca-feira-escala-1" },
@@ -11,7 +11,7 @@
   },
   {
     "titulo": "Quarta Feira",
-    "color": "bg-amber-600",
+    "cor": "bg-amber-600",
     "escalas": [
       { "titulo": "Escala 1", "id": "quarta-feira-escala-1" },
       { "titulo": "Escala 2", "id": "quarta-feira-escala-1" }
@@ -19,7 +19,7 @@
   },
   {
     "titulo": "Quinta Feira",
-    "color": "bg-rose-600",
+    "cor": "bg-rose-600",
     "escalas": [
       { "titulo": "Escala 1", "id": "quinta-feira-escala-1" },
       { "titulo": "Escala 2", "id": "quinta-feira-escala-1" }
@@ -27,7 +27,7 @@
   },
   {
     "titulo": "Sexta Feira",
-    "color": "bg-green-600",
+    "cor": "bg-green-600",
     "escalas": [
       { "titulo": "Escala 1", "id": "sexta-feira-escala-1" },
       { "titulo": "Escala 2", "id": "sexta-feira-escala-1" }

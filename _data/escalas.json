@@ -2,7 +2,7 @@
   {
     "id": "terca-feira-escala-1",
     "titulo": "Escala 1 - Terça Feira",
-    "color": "bg-blue-600",
+    "color": "bg-indigo-600",
     "dias": ["01/09", "02/09", "03/09", "05/09"],
     "dados": [
       {
@@ -60,7 +60,7 @@
   {
     "id": "quarta-feira-escala-1",
     "titulo": "Escala 2 - Quarta Feira",
-    "color": "bg-amber-600",
+    "color": "bg-orange-400",
     "dias": ["01/09", "02/09", "03/09", "05/09"],
     "dados": [
       {
@@ -118,7 +118,7 @@
   {
     "id": "quinta-feira-escala-1",
     "titulo": "Escala 2 - Quinta Feira",
-    "color": "bg-rose-600",
+    "color": "bg-red-500",
     "dias": ["01/09", "02/09", "03/09", "05/09"],
     "dados": [
       {
