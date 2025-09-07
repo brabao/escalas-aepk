@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="block my-5">
+  <table class="w-full text-left text-gray-500">
+    <thead class="sticky top-0 z-10 text-white ">
+      <tr>
+        <th scope="col" class="px-6 py-3 text-center text-xl uppercase bg-white text-gray-900" colspan="2">
+          {{page.titulo}}
+        </th>
+        {% for dia in page.dias %}
+        <th
+          scope="col"
+          class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl"
+        >
+          {{dia}}
+        </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody class="text-gray-700">
+      {% for item in page.dados %}
+      <tr class="{{page.color}} border border-gray-200">
+        <th
+          scope="row"
+          class="px-6 py-4 text-white uppercase"
+          colspan="{{page.dias | size | plus: 2 }}"
+        >
+          {{item.titulo}}
+        </th>
+      </tr>
+      {% for pessoa in item.pessoas %}
+      <tr class="bg-white">
+        <td class="px-6 py-2 border border-gray-200">{{pessoa.nome}}</td>
+        <td class="px-6 py-2 border border-gray-200">{{pessoa.descricao}}</td>
+        {% for dia in page.dias %}
+        <td class="px-6 py-2 border border-gray-200"></td>
+        {% endfor %}
+      </tr>
+      {% endfor %} {% endfor %}
+    </tbody>
+  </table>
+</div>

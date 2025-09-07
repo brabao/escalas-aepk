@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{"assets/fontawesome/css/fontawesome.css" | relative_url }}" />
+    <link rel="stylesheet" href="{{"/assets/fontawesome/css/regular.css" | relative_url }}">
+    <!-- <link rel="stylesheet" href="{{"assets/fontawesome/css/brands.css" | relative_url }}" /> -->
+    <!-- <link rel="stylesheet" href="{{"assets/fontawesome/css/solid.css" | relative_url }}" /> -->
+  </head>
+  <body>
+    <body class="flex flex-col min-h-screen p-5 bg-gray-100">
+
+      <header class="container mx-auto">
+        {% include header.html %}
+      </header>
+
+      <main class="flex-1 container mx-auto">
+       {{ content }}
+      </main>
+
+       {% include footer.html %}
+    </body>
+  </body>
+</html>

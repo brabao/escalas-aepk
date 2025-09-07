@@ -1,0 +1,234 @@
+[
+  {
+    "id": "terca-feira-escala-1",
+    "titulo": "Escala 1 - Terça Feira",
+    "color": "bg-blue-600",
+    "dias": ["01/09", "02/09", "03/09", "05/09"],
+    "dados": [
+      {
+        "titulo": "Funções",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Cambono",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Incorporação",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Em Desenvolvimento",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Assistência",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quarta-feira-escala-1",
+    "titulo": "Escala 2 - Quarta Feira",
+    "color": "bg-amber-600",
+    "dias": ["01/09", "02/09", "03/09", "05/09"],
+    "dados": [
+      {
+        "titulo": "Funções",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Cambono",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Incorporação",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Em Desenvolvimento",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Assistência",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quinta-feira-escala-1",
+    "titulo": "Escala 2 - Quinta Feira",
+    "color": "bg-rose-600",
+    "dias": ["01/09", "02/09", "03/09", "05/09"],
+    "dados": [
+      {
+        "titulo": "Funções",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Cambono",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Incorporação",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Em Desenvolvimento",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Assistência",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sexta-feira-escala-1",
+    "titulo": "Escala 2 - Sexta Feira",
+    "color": "bg-green-600",
+    "dias": ["01/09", "02/09", "03/09", "05/09"],
+    "dados": [
+      {
+        "titulo": "Funções",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Cambono",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Incorporação",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Em Desenvolvimento",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      },
+      {
+        "titulo": "Assistência",
+        "pessoas": [
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" },
+          { "nome": "Danilo Ribeiro da Silveira", "descricao": "Grupo C" }
+        ]
+      }
+    ]
+  }
+]
