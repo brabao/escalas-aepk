@@ -19,6 +19,11 @@ page_gen:
     # filter_condition: [a Ruby expression to filter data]
     # page_data_prefix: [prefix used to name variables]
     # debug: [boolean, if true output more informative messages]
+page_gen:
+  - data: "escalas"
+    template: "escalas_teste"
+    "dir": ""
+    "name": "id"
 
 plugins:
   - jekyll-datapage-generator
