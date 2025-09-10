@@ -4,17 +4,20 @@ layout: default
 ---
 
 <div class="md:grid lg:grid-cols-4 grid-cols-2  gap-4 my-4">
-    {% for item in site.data.resumo %}
+    {% assign dias = site.data.escalas | map: 'dia' | uniq %}
+    {% for item in dias %}
     <div class="mt-5 ">
-        <div class="{{item.cor}} p-5 rounded-t-lg">
-            <h5 class="text-xl font-bold text-white text-center">{{item.titulo}}</h5>
+        {% assign cor = site.data.escalas | where: "dia", item | map: 'cor' | first  %}
+        <div class="{{cor}} p-5 rounded-t-lg">
+            <h5 class="text-xl font-bold text-white text-center">{{item}}</h5>
         </div>
         <div class="p-4 border border-gray-200 rounded-b-lg shadow-sm">
             <ul role="list" class="divide-y divide-gray-200 ">
-                {% for escala in item.escalas %}
+                {% assign escalas_dia = site.data.escalas | where: "dia", item %}
+                {% for escala in escalas_dia %}
                 <li class="flex text-sm font-medium text-gray-900 truncate hover:bg-gray-200">
                     <i class="fa-regular fa-calendar-days mt-4 ml-2"></i>
-                    <a href="{{ escala.id | datapage_url: '' }}" class="block w-full h-full px-2 py-3">{{escala.titulo}}</a>
+                    <a href="{{ escala.id | datapage_url: '' }}" class="block w-full h-full px-2 py-3">Escala {{escala.escala}}</a>
                 </li>
                 {% endfor %}
             </ul>

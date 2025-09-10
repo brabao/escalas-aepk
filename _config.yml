@@ -12,7 +12,7 @@ page_gen:
     # index_files: true
     "name": "id"
     # name_expr: [a Ruby expression to generate the filename (alternative to name)]
-    "title": "titulo"
+    # "title": ""
     # title_expr: [a Ruby expression to generate the filename (alternative to title)]
     # extension: [extension used to generate the filename.]
     # filter: [property to filter data records by]
