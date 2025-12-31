@@ -2,46 +2,46 @@
 layout: default
 ---
 
-<!-- VER TITULO -->
-<div class="block my-5">
-  <table class="w-full text-left text-gray-500">
-    <thead class="sticky top-0 z-10 text-white ">
-      <tr>
-        <th scope="col" class="px-6 py-3 text-center text-xl uppercase bg-white text-gray-900" colspan="2">
-          {{page.dia}} - Escala {{page.escala}}
-        </th>
-        {% for dia in page.dias %}
+<h1 class="text-4xl font-bold my-4">Escala {{page.escala}} - {{page.dia}}</h1>
+<table class="w-full">
+  <thead>
+    <tr>
+      <th scope="col" colspan="2">
+        <table class="w-full">
+          <thead>
+            <tr>
+              {% for dia in page.dias limit: 8 %}
+              <th scope="col" class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-white text-xl">
+                {{dia | date: "%d/%m"}}
+              </th>
+              {% endfor %}
+            </tr>
+      
+          </thead>
+        </table>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in page.dados %}
+    {% if item.pessoas.size > 0 %}
+      <tr class="{{page.cor}} border border-gray-200  sticky top-0 z-10">
         <th
-          scope="col"
-          class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl"
+          scope="row"
+          class="px-6 py-4 text-white uppercase text-left"
+          colspan="{{page.dias | size | plus: 2 }}"
         >
-          {{dia | date: "%d/%m"}}
+          {{item.titulo}}
         </th>
-        {% endfor %}
       </tr>
-    </thead>
-    <tbody class="text-gray-700">
-      {% for item in page.dados %}
-      {% if item.pessoas.size > 0 %}
-        <tr class="{{page.cor}} border border-gray-200">
-          <th
-            scope="row"
-            class="px-6 py-4 text-white uppercase"
-            colspan="{{page.dias | size | plus: 2 }}"
-          >
-            {{item.titulo}}
-          </th>
-        </tr>
-      {% endif %}
-      {% for pessoa in item.pessoas %}
-      <tr class="bg-white">
-        <td class="px-6 py-2 border border-gray-200">{{pessoa.nome}}</td>
-        <td class="px-6 py-2 border border-gray-200">{{pessoa.descricao}}</td>
-        {% for dia in page.dias %}
-        <td class="px-6 py-2 border border-gray-200"></td>
-        {% endfor %}
-      </tr>
-      {% endfor %} {% endfor %}
-    </tbody>
-  </table>
-</div>
+    {% endif %}
+    {% for pessoa in item.pessoas %}
+    <tr class="text-gray-700">
+      <td class="px-6 py-2 border border-gray-200">{{pessoa.nome}}</td>
+      <td class="px-6 py-2 border border-gray-200">{{pessoa.descricao}}</td>
+      {% for dia in page.dias %}
+      {% endfor %}
+    </tr>
+    {% endfor %} {% endfor %}
+  </tbody>
+</table>

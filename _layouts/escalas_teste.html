@@ -2,61 +2,25 @@
 layout: default
 ---
 
-<!-- VER TITULO -->
-<div class="block my-5 mx-auto max-w-screen-sm ">
-  <table class="w-full text-left text-gray-500">
-    <thead class="sticky top-0 z-10 text-white ">
-      <tr>
-        <th scope="col" class="px-6 py-3 text-center text-xl uppercase bg-white text-gray-900" colspan="2">
-          {{page.dia}} - Escala{{page.escala}}
-        </th>
-      </tr>
-      <tr>
-        <th
-          scope="col"
-          colspan="2"
-          class=""
-        >
+{% for item in page.dados %}
+  {% if item.pessoas.size > 0 %}
+    <div class="list-section mb-6">
+      <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 ml-2">
+        {{item.titulo}}
+      </h3>
 
-  <table class="w-full text-left text-gray-500">
-    <thead class="sticky top-0 z-10 text-white ">
-      <tr>
-        {% for dia in page.dias %}
-        <th scope="col" class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl">
-          {{dia | date: "%d/%m"}}
-        </th>
-        {% endfor %}
-      </tr>
-
-    </thead>
-  </table>
-
-
-
-        </th>
-      </tr>
-    </thead>
-    <tbody class="text-gray-700">
-      {% for item in page.dados %}
-      {% if item.pessoas.size > 0 %}
-        <tr class="{{page.cor}} border border-gray-200  sticky top-25 z-10 text-white">
-          <th
-            scope="row"
-            class="px-6 py-4 text-white uppercase"
-            colspan="{{page.dias | size | plus: 2 }}"
-          >
-            {{item.titulo}}
-          </th>
-        </tr>
-      {% endif %}
+      <div class="bg-white rounded-2xl shadow-sm overflow-hidden divide-y divide-gray-100">
       {% for pessoa in item.pessoas %}
-      <tr class="bg-white">
-        <td class="px-6 py-2 border border-gray-200">{{pessoa.nome}}</td>
-        <td class="px-6 py-2 border border-gray-200">{{pessoa.descricao}}</td>
-        {% for dia in page.dias %}
-        {% endfor %}
-      </tr>
-      {% endfor %} {% endfor %}
-    </tbody>
-  </table>
-</div>
+          <div class="worker-item p-4 flex items-center justify-between hover:bg-gray-50 transition">
+            <div class="flex items-center gap-3">
+              <p class="font-medium text-gray-800">{{pessoa.nome}}</p>
+            </div>
+            <span class="group-tag bg-blue-50 text-blue-600 text-xs font-semibold px-2 py-1 rounded border border-blue-100" >{{pessoa.descricao}}</span
+            >
+          </div>
+      {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+

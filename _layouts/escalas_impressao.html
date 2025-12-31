@@ -1,0 +1,47 @@
+---
+layout: full
+---
+
+<div class="block my-5">
+
+  <table class="w-full">
+    <thead class="text-white ">
+      <tr>
+        <th scope="col" class="px-6 py-3 text-center text-xl uppercase bg-white text-gray-900 print:text-3xl" colspan="2">
+           Escala {{page.escala}} - {{page.dia}}
+       </th>
+        {% for dia in page.dias %}
+        <th
+          scope="col"
+          class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl print:text-gray-900 print:bg-gray-400 print:text-2xl"
+        >
+          {{dia | date: "%d/%m"}}
+        </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in page.dados %}
+      {% if item.pessoas.size > 0 %}
+        <tr class="{{page.cor}} border border-gray-200 print:bg-gray-400 sticky top-0 z-10">
+          <th
+            scope="row"
+            class="px-6 py-4 uppercase text-white print:text-gray-900 text-left print:text-2xl"
+            colspan="{{page.dias | size | plus: 2 }}"
+          >
+            {{item.titulo}}
+          </th>
+        </tr>
+      {% endif %}
+      {% for pessoa in item.pessoas %}
+      <tr class="bg-white text-gray-700 print:text-2xl">
+        <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{pessoa.nome}}</td>
+        <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{pessoa.descricao}}</td>
+        {% for dia in page.dias %}
+        <td class="px-6 py-2 border border-gray-200"></td>
+        {% endfor %}
+      </tr>
+      {% endfor %} {% endfor %}
+    </tbody>
+  </table>
+</div>

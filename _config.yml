@@ -1,49 +1,29 @@
 title: "Associação Espírita Pai Kachambí"
 description: "Associação Espírita Pai Kachambí - Escalas"
-keywords: "kachambi, umbanda"
+keywords: "kachambi, umbanda, escalas, desenvolvimento mediunico, mediunidade, preto-velho"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# https://github.com/avillafiorita/jekyll-datapage_gen
 page_gen-dirs: true
 page_gen:
   - data: "escalas"
     template: "escalas"
     "dir": ""
-    # index_files: true
     "name": "id"
-    # name_expr: [a Ruby expression to generate the filename (alternative to name)]
-    # "title": ""
-    # title_expr: [a Ruby expression to generate the filename (alternative to title)]
-    # extension: [extension used to generate the filename.]
-    # filter: [property to filter data records by]
-    # filter_condition: [a Ruby expression to filter data]
-    # page_data_prefix: [prefix used to name variables]
-    # debug: [boolean, if true output more informative messages]
-page_gen:
   - data: "escalas"
-    template: "escalas_teste"
-    "dir": ""
+    template: "escalas_impressao"
+    "dir": "impressao"
     "name": "id"
 
 plugins:
   - jekyll-datapage-generator
-#
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - bin
+  - LICENSE
+  - tailwind.config.js
