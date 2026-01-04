@@ -2,46 +2,71 @@
 layout: default
 ---
 
-<h1 class="text-4xl font-bold my-4">Escala {{page.escala}} - {{page.dia}}</h1>
-<table class="w-full">
-  <thead>
-    <tr>
-      <th scope="col" colspan="2">
-        <table class="w-full">
-          <thead>
-            <tr>
-              {% for dia in page.dias limit: 8 %}
-              <th scope="col" class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-white text-xl">
-                {{dia | date: "%d/%m"}}
-              </th>
-              {% endfor %}
-            </tr>
-      
-          </thead>
-        </table>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for item in page.dados %}
-    {% if item.pessoas.size > 0 %}
-      <tr class="{{page.cor}} border border-gray-200  sticky top-0 z-10">
-        <th
-          scope="row"
-          class="px-6 py-4 text-white uppercase text-left"
-          colspan="{{page.dias | size | plus: 2 }}"
-        >
-          {{item.titulo}}
-        </th>
-      </tr>
-    {% endif %}
-    {% for pessoa in item.pessoas %}
-    <tr class="text-gray-700">
-      <td class="px-6 py-2 border border-gray-200">{{pessoa.nome}}</td>
-      <td class="px-6 py-2 border border-gray-200">{{pessoa.descricao}}</td>
-      {% for dia in page.dias %}
+
+
+<main class="max-w-md mx-auto pb-10">
+
+  <section class="pt-6 pb-2 px-4">
+    <div class="{{page.cor}} rounded-2xl p-6 text-white shadow-lg shadow-indigo-200">
+      <h2 class="text-2xl font-bold mb-1">Escala {{page.escala}} - {{page.dia}}</h2>
+      <!-- <p class="text-indigo-100 text-sm mb-6 font-medium"> -->
+      <!--   Gira de Caboclo • Início às 19:30h -->
+      <!-- </p> -->
+    </div>
+  </section>
+
+
+  <section class="pt-6 pb-2 px-4">
+    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+      </svg>
+      Próximas Datas
+    </h3>
+
+    <div class="flex gap-3 overflow-x-auto pb-2" >
+      {% for dia in page.dias limit: 8 %}
+      {% assign numero_mes = dia | date: "%-m" | minus: 1 %}
+      {% assign nome_mes = site.data.meses.nomes[numero_mes] %}
+      {% assign dias_da_semana = "Dom|Seg|Ter|Qua|Qui|Sex|Sáb" | split: "|" %}
+      {% assign dia_numero = dia | date: "%w" | plus: 0 %}
+      <div class="min-w-[80px] bg-white border border-slate-200 rounded-xl p-3 flex flex-col items-center justify-center shadow-sm snap-start">
+        <span class="text-[10px] uppercase font-bold text-slate-400 mb-1">{{dias_da_semana[dia_numero]}}</span>
+        <span class="text-xl font-bold text-slate-800 leading-none">{{dia | date: "%d"}}</span>
+        <span class="text-xs font-medium text-slate-500 mt-1">{{nome_mes}}</span>
+      </div>
       {% endfor %}
-    </tr>
-    {% endfor %} {% endfor %}
-  </tbody>
-</table>
+    </div>
+  </section>
+
+  <hr class="border-slate-200 mx-4 mb-4">
+
+  <section class="px-4" >
+
+    {% for item in page.dados %}
+    <div class="mb-6 bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="bg-slate-50 px-4 py-3 border-b border-slate-100">
+        <h3 class="text-lg font-bold text-slate-700 flex items-center gap-2 sticky top-0">
+          <span class="w-2 h-2 rounded-full bg-indigo-500"></span>
+          {{item.titulo}}
+        </h3>
+      </div>
+      <ul class="divide-y divide-slate-50">
+
+        {% for pessoa in item.pessoas %}
+        <li class="flex justify-between items-center p-4 hover:bg-slate-50 transition-colors">
+          <div class="flex items-center gap-3">
+            <span class="text-sm font-medium text-slate-700">{{pessoa.nome}}</span>
+          </div>
+          <span class="px-1 py-1 text-[11px] font-bold border rounded-md tracking-wide bg-blue-50 text-blue-700 border-blue-100">
+            {{pessoa.descricao}}
+          </span>
+        </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+    {% endfor %}
+
+  </section>
+</main>
