@@ -3,7 +3,6 @@ layout: full
 ---
 
 <div class="block my-5">
-
   <table class="w-full">
     <thead class="text-white ">
       <tr>
@@ -15,13 +14,63 @@ layout: full
           scope="col"
           class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl print:text-gray-900 print:bg-gray-400 print:text-2xl"
         >
-          {{dia | date: "%d/%m"}}
+          {{dia.data | date: "%d/%m"}}
         </th>
         {% endfor %}
       </tr>
     </thead>
     <tbody>
-      {% for item in page.dados %}
+
+       {% assign totalPorta = page.dias | where_exp: "item", "item.porta" | size %}
+       {% assign totalFicha = page.dias | where_exp: "item", "item.ficha" | size %}
+       {% assign totalVelas = page.dias | where_exp: "item", "item.velas" | size %}
+
+        {% if totalPorta > 0 or totalFicha > 0 or totalVelas > 0 %}
+          <tr class="{{page.cor}} border border-gray-200 print:bg-gray-400 sticky top-0 z-10">
+            <th
+              scope="row"
+              class="px-6 py-4 uppercase text-white print:text-gray-900 text-left print:text-2xl"
+              colspan="{{page.dias | size | plus: 2 }}"
+            >
+              Funções
+            </th>
+          </tr>
+        {% endif %}
+
+        {% if totalPorta > 0 %}
+          <tr class="bg-white text-gray-700 print:text-2xl">
+            <td class="px-6 py-2 border border-gray-200 print:text-2xl" colspan="2">Porta</td>
+            {% for dia in page.dias %}
+              <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.porta}}</td>
+            {% endfor %}
+          </tr>
+        {% endif %}
+
+        {% if totalFicha > 0 %}
+          <tr class="bg-white text-gray-700 print:text-2xl">
+            <td class="px-6 py-2 border border-gray-200 print:text-2xl" colspan="2">Ficha</td>
+            {% for dia in page.dias %}
+              <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.ficha}}</td>
+            {% endfor %}
+          </tr>
+        {% endif %}
+
+        {% if totalVelas > 0 %}
+          <tr class="bg-white text-gray-700 print:text-2xl">
+            <td class="px-6 py-2 border border-gray-200 print:text-2xl" colspan="2">Circulos e Velas</td>
+            {% for dia in page.dias %}
+              <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.velas}}</td>
+            {% endfor %}
+          </tr>
+        {% endif %}
+
+      {% if page.dia == "Terça Feira" %}
+      {% assign dados = page.dados | where_exp: "item", "item.titulo != 'Assistência'" %}
+      {% else %}
+      {% assign dados = page.dados  %}
+      {% endif %}
+
+      {% for item in dados %}
       {% if item.pessoas.size > 0 %}
         <tr class="{{page.cor}} border border-gray-200 print:bg-gray-400 sticky top-0 z-10">
           <th

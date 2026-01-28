@@ -15,6 +15,10 @@ page_gen:
     template: "escalas_impressao"
     "dir": "impressao"
     "name": "id"
+  - data: "escalas"
+    template: "escalas_impressao_assistencia"
+    "dir": "impressao/assistencia"
+    "name": "id"
 
 plugins:
   - jekyll-datapage-generator
