@@ -7,58 +7,75 @@ layout: default
 {% assign totalVelas = page.dias | where_exp: "item", "item.velas" | size %}
 
 {% if totalPorta > 0 or totalFicha > 0 or totalVelas > 0 %}
-<el-dialog>
-  <dialog id="funcoes_escala" class="fixed inset-0 size-auto max-h-none max-w-none overflow-y-auto bg-transparent backdrop:bg-transparent">
-    <el-dialog-backdrop class="fixed inset-0 bg-gray-500/75 transition-opacity data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in"></el-dialog-backdrop>
+<dialog id="modal_escala" class="m-auto fixed inset-0 z-50 rounded-lg shadow-xl overflow-hidden w-[95%] sm:w-full sm:max-w-lg bg-white p-0 backdrop:bg-gray-500/75 backdrop:backdrop-blur-sm open:animate-fade-in focus:outline-none">
+  
+  <div class="flex flex-col max-h-[90vh]">
+    
+    <div class="bg-white px-4 py-3 border-b border-gray-100 flex justify-between items-center sm:px-6">
+      <h3 class="text-lg font-semibold leading-6 text-gray-900">Escala de Funções</h3>
+      <button onclick="document.getElementById('modal_escala').close()" class="text-gray-400 hover:text-gray-500 focus:outline-none">
+        <span class="sr-only">Fechar</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
 
-    <div tabindex="0" class="flex min-h-full items-end justify-center p-4 text-center focus:outline-none sm:items-center sm:p-0">
-      <el-dialog-panel class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-lg data-closed:sm:translate-y-0 data-closed:sm:scale-95">
-        <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-          <table class="w-full">
-            <thead class="text-white ">
+    <div class="p-4 sm:p-6 overflow-y-auto">
+      
+      <div class="overflow-x-auto -mx-4 sm:mx-0">
+        <div class="inline-block min-w-full align-middle px-4 sm:px-0">
+          <table class="min-w-full divide-y divide-gray-300">
+            <thead>
               <tr>
-                <th
-                  class="{{page.cor}} border border-gray-200 p-2 text-center print:text-gray-900 print:bg-gray-400 print:text-2xl"
-                >Dia</th>
-                <th
-                  class="{{page.cor}} border border-gray-200 p-2 text-center print:text-gray-900 print:bg-gray-400 print:text-2xl"
-                >Porta</th>
-                <th
-                  class="{{page.cor}} border border-gray-200 p-2 text-center print:text-gray-900 print:bg-gray-400 print:text-2xl"
-                >Ficha</th>
-                <th
-                  class="{{page.cor}} border border-gray-200 p-2 text-center print:text-gray-900 print:bg-gray-400 print:text-2xl"
-                >Circulos e Velas</th>
+                <th class="{{page.cor}} text-white border border-gray-200 p-2 text-center text-xs sm:text-sm font-semibold">Dia</th>
+                <th class="{{page.cor}} text-white border border-gray-200 p-2 text-center text-xs sm:text-sm font-semibold">Porta</th>
+                <th class="{{page.cor}} text-white border border-gray-200 p-2 text-center text-xs sm:text-sm font-semibold">Ficha</th>
+                <th class="{{page.cor}} text-white border border-gray-200 p-2 text-center text-xs sm:text-sm font-semibold">Circulos e Velas</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="divide-y divide-gray-200">
               {% for dia in page.dias limit: 8 %}
               {% assign numero_mes = dia.data | date: "%-m" | minus: 1 %}
               {% assign nome_mes = site.data.meses.nomes[numero_mes] %}
-              {% assign dias_da_semana = "Dom|Seg|Ter|Qua|Qui|Sex|Sáb" | split: "|" %}
-              {% assign dia_numero = dia.data | date: "%w" | plus: 0 %}
-                  <tr class="border border-gray-200 print:bg-gray-400 sticky top-0 z-10">
-                    <td class="uppercase text-white print:text-gray-900 text-left print:text-2xl">
-                      <div class="min-w-[80px] flex flex-col items-center justify-center snap-start">
-                        <span class="text-xl font-bold text-slate-800 leading-none">{{dia.data | date: "%d"}}</span>
-                        <span class="text-xs font-medium text-slate-500 mt-1">{{nome_mes}}</span>
-                      </div>
-                    </td>
-                    <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.porta}}</td>
-                    <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.ficha}}</td>
-                    <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.velas}}</td>
-                  </tr>
+              
+                <tr class="hover:bg-gray-50">
+                  <td class="border border-gray-200 p-2 bg-white">
+                    <div class="flex flex-col items-center justify-center min-w-[50px]">
+                      <span class="text-lg sm:text-xl font-bold text-slate-800 leading-none">{{dia.data | date: "%d"}}</span>
+                      <span class="text-[10px] sm:text-xs font-medium text-slate-500 mt-1 uppercase">{{nome_mes}}</span>
+                    </div>
+                  </td>
+                  <td class="px-3 py-2 border border-gray-200 text-center text-sm text-gray-700 whitespace-nowrap">{{dia.porta}}</td>
+                  <td class="px-3 py-2 border border-gray-200 text-center text-sm text-gray-700 whitespace-nowrap">{{dia.ficha}}</td>
+                  <td class="px-3 py-2 border border-gray-200 text-center text-sm text-gray-700 whitespace-nowrap">{{dia.velas}}</td>
+                </tr>
               {% endfor %}
             </tbody>
           </table>
         </div>
-        <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-          <button type="button" command="close" commandfor="funcoes_escala" class="inline-flex w-full justify-center rounded-md bg-gray-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-500 sm:ml-3 sm:w-auto cursor-pointer">Fechar</button>
-        </div>
-      </el-dialog-panel>
+      </div>
+
     </div>
-  </dialog>
-</el-dialog>
+
+    <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 shrink-0 border-t border-gray-100">
+      <button type="button" onclick="document.getElementById('modal_escala').close()" class="inline-flex w-full justify-center rounded-md bg-gray-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 sm:ml-3 sm:w-auto cursor-pointer transition">
+        Fechar
+      </button>
+    </div>
+
+  </div>
+</dialog>
+
+<script>
+  const modal = document.getElementById('modal_escala');
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.close();
+    }
+  });
+</script>
 {% endif %}
 
 <main class="max-w-md mx-auto pb-10">
@@ -77,7 +94,7 @@ layout: default
       </svg>
       Próximas datas
       {% if totalPorta > 0 or totalFicha > 0 or totalVelas > 0 %}
-        <button command="show-modal" commandfor="funcoes_escala" class="{{page.cor}} rounded-md px-2.5 py-1.5 text-sm font-semibold text-white cursor-pointer ">Funções</button>
+        <button onclick="document.getElementById('modal_escala').showModal()" class="{{page.cor}} rounded-md px-2.5 py-1.5 text-sm font-semibold text-white cursor-pointer ">Funções</button>
       {% endif %}
     </h3>
 
@@ -124,5 +141,4 @@ layout: default
       {% endif %}
     {% endfor %}
   </section>
-
 </main>
