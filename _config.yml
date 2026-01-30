@@ -31,3 +31,5 @@ exclude:
   - bin
   - LICENSE
   - tailwind.config.js
+
+timezone: America/Sao_Paulo

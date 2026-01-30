@@ -116,6 +116,14 @@
             "descricao": "Grupo A"
           },
           {
+            "nome": "Carlos Custodio Caria",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Cesar de Oliveira Maia",
+            "descricao": "Grupo D Novo"
+          },
+          {
             "nome": "Claudia Adriana da Silva Santos ",
             "descricao": "Grupo C"
           },
@@ -186,339 +194,6 @@
           {
             "nome": "Vanda S.Mattar Vilela",
             "descricao": "Grupo D"
-          }
-        ]
-      },
-      {
-        "titulo": "Assistência",
-        "pessoas": [
-          {
-            "nome": "Ademir Ferreira Dias",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Alexandre Medeiros Camilo",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Ana Laura Prado Andre Ribeiro da Silva",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Angela Maria Antunes Lopes Firmino",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Beatriz Aparecida Pereira Martins",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Beatriz Marcondes Amaral",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Brenda Caroline de Oliveira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Brendo Marques Silva",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Bruno Silva Calixto",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Carla Lee de Carvalho",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Carlos Custodio Caria",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Carlos Daniel de Souza",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Carolina Aquino",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Carolina de Freitas Pessutti",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Celso Henrique Ferreira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Cesar de Oliveira Maia",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Christiane Alves Rezende",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Ciro Henrique Bernardes Guimarães",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Claudia Aparecida OIiveira Carvalho",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Crisciely Antunes Lima",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Danilo de Souza",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Daubert de Castro Chagas ",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "Denis Aparecido Bueno",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Diana Silva do Nascimento",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Divino Geraldo da Silva",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Edivar Oliveira Severino",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Eliana Elias",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Elidiane Rodrigues de Lima",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Emilly Estevão Bezerra da Silva",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Fernanda Aparecida da Silva Mendes",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Gabriela Rosa Maia",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Ghislaine Cardoso Mattar",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Grasielle Rosa Maia",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Henrique Madeira Souza",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Idelma Nazareth Bueno Andrade",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Isabela de Castro Carvalho",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Janaina de Lima Cruz",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Jeisa Lemos Sarno",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Jessica Mattar Vilela",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "José de Matos Cartano Neto",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "José Renato Vilela Lemos",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Julia Gabriela Avelino Olegario",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Juliana Rezende Costa Reis",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "Julio Flavio Barbosa Carvalho",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Layla Ganrielle Aparecida de Melo",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Leandro Lemos Costa",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Leandro Messias Martins",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Leila de Andrade Taveira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Leticia Batista da Silva Costa",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Lídia Salem Ferreira Castro",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Luciene Cristina Pizzi",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Luiz Henrique Garlatti Reis",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Maira Aparecida Pinto Hostalacio",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Marcel Chagas D`Avilla",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Marcio Jose de Freitas",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Maria da Penha Cardoso Santos",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Maria Eduarda Lima Stockler Lambert",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Mariana Silveira Medeiros Amorim",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Marina De Simoni",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Marisa Andrade Silveira",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "Matheus Silva de Oliveira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Murilo de Padua Andrade Filho",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Nayara Moreira Borges",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Nubia Rosinei dos Reis",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Osmar Hespanhol",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Paloma Nazareth Andrade Sodré Passos",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Pollyana Silva Correa",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "Rafael Gonçalves de Carvalho",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Raquel Santiago",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Rejane Rosa da Silva",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Rita Aparecida Ribeiro Vieira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Sanderli R Santos",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Sandra Aparecida Fernandes",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Simone Santiago de Padua Andrade",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Sonia das Neves Terra",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Stephani de Padua Lima",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Taísa Lemos Costa",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Thais Helena de Almeida Oliveira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Tulio Costa Dutra",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Valdivino Marques da Silva",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Viviane Aparecida Donizeth",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Yanka Maria Batista Pereira",
-            "descricao": "Grupo D Novo"
           }
         ]
       },
@@ -791,6 +466,10 @@
             "descricao": "Grupo D"
           },
           {
+            "nome": "Jessica Mattar Vilela",
+            "descricao": "Grupo D"
+          },
+          {
             "nome": "José Antônio dos Reis",
             "descricao": "Grupo D"
           },
@@ -843,206 +522,6 @@
             "descricao": "Grupo D"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "terca-feira-escala-2",
-    "dia": "Terça Feira",
-    "escala": 2,
-    "cor": "bg-indigo-600",
-    "dias": [
-      {
-        "data": "2026-01-27T00:00:00.000Z"
-      },
-      {
-        "data": "2026-02-10T00:00:00.000Z"
-      },
-      {
-        "data": "2026-02-24T00:00:00.000Z"
-      },
-      {
-        "data": "2026-03-10T00:00:00.000Z"
-      },
-      {
-        "data": "2026-03-24T00:00:00.000Z"
-      },
-      {
-        "data": "2026-04-07T00:00:00.000Z"
-      },
-      {
-        "data": "2026-04-21T00:00:00.000Z"
-      },
-      {
-        "data": "2026-05-05T00:00:00.000Z"
-      }
-    ],
-    "dados": [
-      {
-        "titulo": "Funções",
-        "pessoas": [
-          {
-            "nome": "Carlos Henrique Kallas Neder ",
-            "descricao": "Presidente / Vice"
-          },
-          {
-            "nome": "Carlos Raimundo Medeiros",
-            "descricao": "Circulos e Velas"
-          },
-          {
-            "nome": "Chrystiane Pereira de Castro Carvalho",
-            "descricao": "Ficha"
-          },
-          {
-            "nome": "Hermon Faria de Araujo",
-            "descricao": "Ficha"
-          },
-          {
-            "nome": "Jaime Amorim Alves ",
-            "descricao": "Porta"
-          },
-          {
-            "nome": "Lenir Aparecida Gonçalves Reis",
-            "descricao": "Coord. Psicografia"
-          },
-          {
-            "nome": "Leonardo Ávila Ferreira Silva",
-            "descricao": "Ficha"
-          },
-          {
-            "nome": "Patrícia Corrêa de Padua Andrade ",
-            "descricao": "Presidente / Vice"
-          },
-          {
-            "nome": "Reginalda Chaves de Oliveira Garcia",
-            "descricao": "Ficha"
-          }
-        ]
-      },
-      {
-        "titulo": "Cambono",
-        "pessoas": [
-          {
-            "nome": "Andresa Grabrielle Lima Maia",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Antônio José Conte",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Ariovaldo Manoel Moura",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Carla Belline Nunes Formágio",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Carlos Raimundo Medeiros",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Dora Luz Tolentino Saraiva",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "Elizabeth Pitol Moura ",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Fernando Assis Andrade ",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Imalaiamo Figueiredo Paulo Corrêa ",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Ivani Lélia Machado",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Jacqueline Avila Ferreira Rodrigues",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Jaime Amorim Alves ",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "João Avelino Filho",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "José Antonio Rezende ",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Juscelia dos Santos Pereira",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Lenir Aparecida Gonçalves Reis",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Luciano da Silva Queiroz",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Maria Aparecida Oliveira (Cidinha Oliveira)",
-            "descricao": "Grupo A"
-          },
-          {
-            "nome": "Maria Cláudia Lemos",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Maria Cristina Silveira Queiroz",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Marisa Aparecida Souza da Silva",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Nélida das Dores Oliveira Chagas ",
-            "descricao": "Grupo A"
-          },
-          {
-            "nome": "Paula Carolina Freire",
-            "descricao": "Grupo D"
-          },
-          {
-            "nome": "Paulo Daher Junior",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Priscila Silva Corrêa",
-            "descricao": "Grupo B"
-          },
-          {
-            "nome": "Reginaldo Lemos Gonzaga",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Rosângela Dutra Conde",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Silvia de Oliveira Dutra",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Tallen da Silva Reis",
-            "descricao": "Grupo C"
-          },
-          {
-            "nome": "Vanda S.Mattar Vilela",
-            "descricao": "Grupo D"
-          }
-        ]
       },
       {
         "titulo": "Assistência",
@@ -1068,10 +547,6 @@
             "descricao": "Grupo D Novo"
           },
           {
-            "nome": "Beatriz Marcondes Amaral",
-            "descricao": "Grupo D Novo"
-          },
-          {
             "nome": "Brenda Caroline de Oliveira",
             "descricao": "Grupo D Novo"
           },
@@ -1088,10 +563,6 @@
             "descricao": "Grupo D Novo"
           },
           {
-            "nome": "Carlos Custodio Caria",
-            "descricao": "Grupo D Novo"
-          },
-          {
             "nome": "Carlos Daniel de Souza",
             "descricao": "Grupo D Novo"
           },
@@ -1105,10 +576,6 @@
           },
           {
             "nome": "Celso Henrique Ferreira",
-            "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Cesar de Oliveira Maia",
             "descricao": "Grupo D Novo"
           },
           {
@@ -1198,10 +665,6 @@
           {
             "nome": "Jeisa Lemos Sarno",
             "descricao": "Grupo D Novo"
-          },
-          {
-            "nome": "Jessica Mattar Vilela",
-            "descricao": "Grupo D"
           },
           {
             "nome": "José de Matos Cartano Neto",
@@ -1374,6 +837,214 @@
           {
             "nome": "Yanka Maria Batista Pereira",
             "descricao": "Grupo D Novo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "terca-feira-escala-2",
+    "dia": "Terça Feira",
+    "escala": 2,
+    "cor": "bg-indigo-600",
+    "dias": [
+      {
+        "data": "2026-02-10T00:00:00.000Z"
+      },
+      {
+        "data": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "data": "2026-03-10T00:00:00.000Z"
+      },
+      {
+        "data": "2026-03-24T00:00:00.000Z"
+      },
+      {
+        "data": "2026-04-07T00:00:00.000Z"
+      },
+      {
+        "data": "2026-04-21T00:00:00.000Z"
+      },
+      {
+        "data": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "data": "2026-05-19T00:00:00.000Z"
+      }
+    ],
+    "dados": [
+      {
+        "titulo": "Funções",
+        "pessoas": [
+          {
+            "nome": "Carlos Henrique Kallas Neder ",
+            "descricao": "Presidente / Vice"
+          },
+          {
+            "nome": "Carlos Raimundo Medeiros",
+            "descricao": "Circulos e Velas"
+          },
+          {
+            "nome": "Chrystiane Pereira de Castro Carvalho",
+            "descricao": "Ficha"
+          },
+          {
+            "nome": "Hermon Faria de Araujo",
+            "descricao": "Ficha"
+          },
+          {
+            "nome": "Jaime Amorim Alves ",
+            "descricao": "Porta"
+          },
+          {
+            "nome": "Lenir Aparecida Gonçalves Reis",
+            "descricao": "Coord. Psicografia"
+          },
+          {
+            "nome": "Leonardo Ávila Ferreira Silva",
+            "descricao": "Ficha"
+          },
+          {
+            "nome": "Patrícia Corrêa de Padua Andrade ",
+            "descricao": "Presidente / Vice"
+          },
+          {
+            "nome": "Reginalda Chaves de Oliveira Garcia",
+            "descricao": "Ficha"
+          }
+        ]
+      },
+      {
+        "titulo": "Cambono",
+        "pessoas": [
+          {
+            "nome": "Andresa Grabrielle Lima Maia",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Antônio José Conte",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Ariovaldo Manoel Moura",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Carla Belline Nunes Formágio",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Carlos Custodio Caria",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Carlos Raimundo Medeiros",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Cesar de Oliveira Maia",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Dora Luz Tolentino Saraiva",
+            "descricao": "Grupo D"
+          },
+          {
+            "nome": "Elizabeth Pitol Moura ",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Fernando Assis Andrade ",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Imalaiamo Figueiredo Paulo Corrêa ",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Ivani Lélia Machado",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Jacqueline Avila Ferreira Rodrigues",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Jaime Amorim Alves ",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "João Avelino Filho",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "José Antonio Rezende ",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Juscelia dos Santos Pereira",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Lenir Aparecida Gonçalves Reis",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Luciano da Silva Queiroz",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Maria Aparecida Oliveira (Cidinha Oliveira)",
+            "descricao": "Grupo A"
+          },
+          {
+            "nome": "Maria Cláudia Lemos",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Maria Cristina Silveira Queiroz",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Marisa Aparecida Souza da Silva",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Nélida das Dores Oliveira Chagas ",
+            "descricao": "Grupo A"
+          },
+          {
+            "nome": "Paula Carolina Freire",
+            "descricao": "Grupo D"
+          },
+          {
+            "nome": "Paulo Daher Junior",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Priscila Silva Corrêa",
+            "descricao": "Grupo B"
+          },
+          {
+            "nome": "Reginaldo Lemos Gonzaga",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Rosângela Dutra Conde",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Silvia de Oliveira Dutra",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Tallen da Silva Reis",
+            "descricao": "Grupo C"
+          },
+          {
+            "nome": "Vanda S.Mattar Vilela",
+            "descricao": "Grupo D"
           }
         ]
       },
@@ -1654,6 +1325,10 @@
             "descricao": "Grupo D"
           },
           {
+            "nome": "Jessica Mattar Vilela",
+            "descricao": "Grupo D"
+          },
+          {
             "nome": "José Antônio dos Reis",
             "descricao": "Grupo D"
           },
@@ -1704,6 +1379,323 @@
           {
             "nome": "Thayla Machado",
             "descricao": "Grupo D"
+          }
+        ]
+      },
+      {
+        "titulo": "Assistência",
+        "pessoas": [
+          {
+            "nome": "Ademir Ferreira Dias",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Alexandre Medeiros Camilo",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Ana Laura Prado Andre Ribeiro da Silva",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Angela Maria Antunes Lopes Firmino",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Beatriz Aparecida Pereira Martins",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Brenda Caroline de Oliveira",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Brendo Marques Silva",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Bruno Silva Calixto",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Carla Lee de Carvalho",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Carlos Daniel de Souza",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Carolina Aquino",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Carolina de Freitas Pessutti",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Celso Henrique Ferreira",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Christiane Alves Rezende",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Ciro Henrique Bernardes Guimarães",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Claudia Aparecida OIiveira Carvalho",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Crisciely Antunes Lima",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Danilo de Souza",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Daubert de Castro Chagas ",
+            "descricao": "Grupo D"
+          },
+          {
+            "nome": "Denis Aparecido Bueno",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Diana Silva do Nascimento",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Divino Geraldo da Silva",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Edivar Oliveira Severino",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Eliana Elias",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Elidiane Rodrigues de Lima",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Emilly Estevão Bezerra da Silva",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Fernanda Aparecida da Silva Mendes",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Gabriela Rosa Maia",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Ghislaine Cardoso Mattar",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Grasielle Rosa Maia",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Henrique Madeira Souza",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Idelma Nazareth Bueno Andrade",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Isabela de Castro Carvalho",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Janaina de Lima Cruz",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Jeisa Lemos Sarno",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "José de Matos Cartano Neto",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "José Renato Vilela Lemos",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Julia Gabriela Avelino Olegario",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Juliana Rezende Costa Reis",
+            "descricao": "Grupo D"
+          },
+          {
+            "nome": "Julio Flavio Barbosa Carvalho",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Layla Ganrielle Aparecida de Melo",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Leandro Lemos Costa",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Leandro Messias Martins",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Leila de Andrade Taveira",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Leticia Batista da Silva Costa",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Lídia Salem Ferreira Castro",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Luciene Cristina Pizzi",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Luiz Henrique Garlatti Reis",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Maira Aparecida Pinto Hostalacio",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Marcel Chagas D`Avilla",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Marcio Jose de Freitas",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Maria da Penha Cardoso Santos",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Maria Eduarda Lima Stockler Lambert",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Mariana Silveira Medeiros Amorim",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Marina De Simoni",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Marisa Andrade Silveira",
+            "descricao": "Grupo D"
+          },
+          {
+            "nome": "Matheus Silva de Oliveira",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Murilo de Padua Andrade Filho",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Nayara Moreira Borges",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Nubia Rosinei dos Reis",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Osmar Hespanhol",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Paloma Nazareth Andrade Sodré Passos",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Pollyana Silva Correa",
+            "descricao": "Grupo D"
+          },
+          {
+            "nome": "Rafael Gonçalves de Carvalho",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Raquel Santiago",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Rejane Rosa da Silva",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Rita Aparecida Ribeiro Vieira",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Sanderli R Santos",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Sandra Aparecida Fernandes",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Simone Santiago de Padua Andrade",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Sonia das Neves Terra",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Stephani de Padua Lima",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Taísa Lemos Costa",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Thais Helena de Almeida Oliveira",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Tulio Costa Dutra",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Valdivino Marques da Silva",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Viviane Aparecida Donizeth",
+            "descricao": "Grupo D Novo"
+          },
+          {
+            "nome": "Yanka Maria Batista Pereira",
+            "descricao": "Grupo D Novo"
           }
         ]
       }
@@ -1981,9 +1973,6 @@
     "cor": "bg-orange-600",
     "dias": [
       {
-        "data": "2026-01-28T00:00:00.000Z"
-      },
-      {
         "data": "2026-02-25T00:00:00.000Z"
       },
       {
@@ -2003,55 +1992,54 @@
       },
       {
         "data": "2026-08-12T00:00:00.000Z"
+      },
+      {
+        "data": "2026-09-09T00:00:00.000Z"
       }
     ],
     "dados": [
       {
         "titulo": "Funções",
-        "pessoas": []
-      },
-      {
-        "titulo": "Médium",
         "pessoas": [
           {
             "nome": "Arnaldo Emerson de Assis",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           },
           {
             "nome": "Blenda Maia Pereira Fernandes",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           },
           {
             "nome": "Bruna Costa Freire Silveira",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           },
           {
             "nome": "Carlos Alberto Borges ",
-            "descricao": "Grupo A"
+            "descricao": "Médium"
           },
           {
             "nome": "Dayse Chagas d'Avilla ",
-            "descricao": "Grupo A"
+            "descricao": "Médium"
           },
           {
             "nome": "Francielle Vanessa Oliveira Maia",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           },
           {
             "nome": "Maisa Maia Lemos",
-            "descricao": "Grupo B"
+            "descricao": "Médium"
           },
           {
             "nome": "Natana Luiza de Souza",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           },
           {
             "nome": "Reis Emerenciano Campos",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           },
           {
             "nome": "Thais Helena Furtado",
-            "descricao": "Grupo C"
+            "descricao": "Médium"
           }
         ]
       }
@@ -2230,9 +2218,6 @@
     "cor": "bg-red-500",
     "dias": [
       {
-        "data": "2026-01-29T00:00:00.000Z"
-      },
-      {
         "data": "2026-02-12T00:00:00.000Z"
       },
       {
@@ -2252,6 +2237,9 @@
       },
       {
         "data": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "data": "2026-05-21T00:00:00.000Z"
       }
     ],
     "dados": [

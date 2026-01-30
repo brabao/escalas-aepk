@@ -100,15 +100,26 @@ layout: default
 
     <div class="flex gap-3 overflow-x-auto pb-2" >
       {% for dia in page.dias limit: 8 %}
-      {% assign numero_mes = dia.data | date: "%-m" | minus: 1 %}
-      {% assign nome_mes = site.data.meses.nomes[numero_mes] %}
-      {% assign dias_da_semana = "Dom|Seg|Ter|Qua|Qui|Sex|Sáb" | split: "|" %}
-      {% assign dia_numero = dia.data | date: "%w" | plus: 0 %}
-      <div class="min-w-[80px] bg-white border border-slate-200 rounded-xl p-3 flex flex-col items-center justify-center shadow-sm snap-start">
-        <span class="text-[10px] uppercase font-bold text-slate-400 mb-1">{{dias_da_semana[dia_numero]}}</span>
-        <span class="text-xl font-bold text-slate-800 leading-none">{{dia.data | date: "%d"}}</span>
-        <span class="text-xs font-medium text-slate-500 mt-1">{{nome_mes}}</span>
-      </div>
+        {% assign numero_mes = dia.data | date: "%-m" | minus: 1 %}
+        {% assign nome_mes = site.data.meses.nomes[numero_mes] %}
+        {% assign dias_da_semana = "Dom|Seg|Ter|Qua|Qui|Sex|Sáb" | split: "|" %}
+        {% assign dia_numero = dia.data | date: "%w" | plus: 0 %}
+
+        {% assign hoje = 'now' | date: '%Y-%m-%d' %}
+        {% assign dia_formatado = dia.data | date: '%Y-%m-%d' %}
+        {% if dia_formatado == hoje %}
+          <div class="min-w-[80px] bg-green-400 border border-green-200 rounded-xl p-3 flex flex-col items-center justify-center shadow-sm snap-start">
+            <span class="text-[10px] uppercase font-bold text-white mb-1">{{dias_da_semana[dia_numero]}}</span>
+            <span class="text-xl font-bold text-white leading-none">{{dia.data | date: "%d"}}</span>
+            <span class="text-xs font-medium text-white mt-1">{{nome_mes}}</span>
+          </div>
+        {% else %}
+          <div class="min-w-[80px] bg-white border border-slate-200 rounded-xl p-3 flex flex-col items-center justify-center shadow-sm snap-start">
+            <span class="text-[10px] uppercase font-bold text-slate-400 mb-1">{{dias_da_semana[dia_numero]}}</span>
+            <span class="text-xl font-bold text-slate-800 leading-none">{{dia.data | date: "%d"}}</span>
+            <span class="text-xs font-medium text-slate-500 mt-1">{{nome_mes}}</span>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </section>
