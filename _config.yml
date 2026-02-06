@@ -4,6 +4,9 @@ keywords: "kachambi, umbanda, escalas, desenvolvimento mediunico, mediunidade, p
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# quantidade maxima de dias para exibir no calendário
+quantidade_dias_padrao: 8
+
 # https://github.com/avillafiorita/jekyll-datapage_gen
 page_gen-dirs: true
 page_gen:

@@ -2,6 +2,7 @@
 layout: full
 ---
 
+{% assign datas_filtradas = page.dias | proximas_datas %}
 {% if page.dia == "Terça Feira" %}
 <div class="block my-5">
 
@@ -11,7 +12,7 @@ layout: full
         <th scope="col" class="px-6 py-3 text-center text-xl uppercase bg-white text-gray-900 print:text-3xl" colspan="2">
            Escala {{page.escala}} - {{page.dia}}
        </th>
-        {% for dia in page.dias %}
+        {% for dia in datas_filtradas %}
         <th
           scope="col"
           class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl print:text-gray-900 print:bg-gray-400 print:text-2xl"
@@ -30,7 +31,7 @@ layout: full
           <th
             scope="row"
             class="px-6 py-4 uppercase text-white print:text-gray-900 text-left print:text-2xl"
-            colspan="{{page.dias | size | plus: 2 }}"
+            colspan="{{datas_filtradas | size | plus: 2 }}"
           >
             {{item.titulo}}
           </th>
@@ -40,7 +41,7 @@ layout: full
       <tr class="bg-white text-gray-700 print:text-2xl">
         <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{pessoa.nome}}</td>
         <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{pessoa.descricao}}</td>
-        {% for dia in page.dias %}
+        {% for dia in datas_filtradas %}
         <td class="px-6 py-2 border border-gray-200"></td>
         {% endfor %}
       </tr>

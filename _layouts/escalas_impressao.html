@@ -2,6 +2,11 @@
 layout: full
 ---
 
+{% assign datas_filtradas = page.dias | proximas_datas %}
+{% assign totalPorta = datas_filtradas | where_exp: "item", "item.porta" | size %}
+{% assign totalFicha = datas_filtradas | where_exp: "item", "item.ficha" | size %}
+{% assign totalVelas = datas_filtradas | where_exp: "item", "item.velas" | size %}
+
 <div class="block my-5">
   <table class="w-full">
     <thead class="text-white ">
@@ -9,7 +14,7 @@ layout: full
         <th scope="col" class="px-6 py-3 text-center text-xl uppercase bg-white text-gray-900 print:text-3xl" colspan="2">
            Escala {{page.escala}} - {{page.dia}}
        </th>
-        {% for dia in page.dias %}
+        {% for dia in datas_filtradas %}
         <th
           scope="col"
           class="border border-gray-200 px-6 py-3 bg-gray-500 text-center text-xl print:text-gray-900 print:bg-gray-400 print:text-2xl"
@@ -21,16 +26,13 @@ layout: full
     </thead>
     <tbody>
 
-       {% assign totalPorta = page.dias | where_exp: "item", "item.porta" | size %}
-       {% assign totalFicha = page.dias | where_exp: "item", "item.ficha" | size %}
-       {% assign totalVelas = page.dias | where_exp: "item", "item.velas" | size %}
 
         {% if totalPorta > 0 or totalFicha > 0 or totalVelas > 0 %}
           <tr class="{{page.cor}} border border-gray-200 print:bg-gray-400 sticky top-0 z-10">
             <th
               scope="row"
               class="px-6 py-4 uppercase text-white print:text-gray-900 text-left print:text-2xl"
-              colspan="{{page.dias | size | plus: 2 }}"
+              colspan="{{datas_filtradas | size | plus: 2 }}"
             >
               Funções
             </th>
@@ -40,7 +42,7 @@ layout: full
         {% if totalPorta > 0 %}
           <tr class="bg-white text-gray-700 print:text-2xl">
             <td class="px-6 py-2 border border-gray-200 print:text-2xl" colspan="2">Porta</td>
-            {% for dia in page.dias %}
+            {% for dia in datas_filtradas %}
               <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.porta}}</td>
             {% endfor %}
           </tr>
@@ -49,7 +51,7 @@ layout: full
         {% if totalFicha > 0 %}
           <tr class="bg-white text-gray-700 print:text-2xl">
             <td class="px-6 py-2 border border-gray-200 print:text-2xl" colspan="2">Ficha</td>
-            {% for dia in page.dias %}
+            {% for dia in datas_filtradas %}
               <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.ficha}}</td>
             {% endfor %}
           </tr>
@@ -58,7 +60,7 @@ layout: full
         {% if totalVelas > 0 %}
           <tr class="bg-white text-gray-700 print:text-2xl">
             <td class="px-6 py-2 border border-gray-200 print:text-2xl" colspan="2">Circulos e Velas</td>
-            {% for dia in page.dias %}
+            {% for dia in datas_filtradas %}
               <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{dia.velas}}</td>
             {% endfor %}
           </tr>
@@ -76,7 +78,7 @@ layout: full
           <th
             scope="row"
             class="px-6 py-4 uppercase text-white print:text-gray-900 text-left print:text-2xl"
-            colspan="{{page.dias | size | plus: 2 }}"
+            colspan="{{datas_filtradas | size | plus: 2 }}"
           >
             {{item.titulo}}
           </th>
@@ -86,7 +88,7 @@ layout: full
       <tr class="bg-white text-gray-700 print:text-2xl">
         <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{pessoa.nome}}</td>
         <td class="px-6 py-2 border border-gray-200 print:text-2xl">{{pessoa.descricao}}</td>
-        {% for dia in page.dias %}
+        {% for dia in datas_filtradas %}
         <td class="px-6 py-2 border border-gray-200"></td>
         {% endfor %}
       </tr>
