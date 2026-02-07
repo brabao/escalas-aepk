@@ -3,7 +3,17 @@ title: Escala
 layout: default
 ---
 
-{% include proximaEscala.html %}
+{% assign hoje = 'now' | date: '%Y-%m-%d' %}
+{% assign escala_hoje = nil %}
+
+{% for item in site.data.escalas %}
+  {% for dia_raw in item.dias | proximas_datas  %}
+    {% assign dia_formatado = dia_raw.data | date: '%Y-%m-%d' %}
+    {% if dia_formatado == hoje %}
+        {% assign escala_hoje = item %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 <main class="max-w-7xl mx-auto p-6 pb-20 space-y-8">
     <div>
