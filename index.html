@@ -5,12 +5,20 @@ layout: default
 
 {% assign hoje = 'now' | date: '%Y-%m-%d' %}
 {% assign escala_hoje = nil %}
+{% assign proxima_escala = nil %}
+{% assign menor_data_futura = '9999-12-31' %}
 
 {% for item in site.data.escalas %}
-  {% for dia_raw in item.dias | proximas_datas  %}
+  {% for dia_raw in item.dias %}
     {% assign dia_formatado = dia_raw.data | date: '%Y-%m-%d' %}
+
     {% if dia_formatado == hoje %}
-        {% assign escala_hoje = item %}
+      {% assign escala_hoje = item %}
+    {% elsif dia_formatado > hoje %}
+      {% if dia_formatado < menor_data_futura %}
+        {% assign menor_data_futura = dia_formatado %}
+        {% assign proxima_escala = item %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 {% endfor %}
@@ -41,6 +49,13 @@ layout: default
                             {% if escala_hoje and escala.id == escala_hoje.id %}
                               <span class="p-1 text-[11px] text-white font-bold border rounded-md tracking-wide bg-green-500 text-green-700 border-green-100">
                                 hoje
+                              </span>
+                            {% endif %}
+
+
+                            {% if proxima_escala and escala.id == proxima_escala.id %}
+                              <span class="p-1 text-[11px] text-white font-bold border rounded-md tracking-wide bg-green-500 text-green-700 border-green-100">
+                                próxima
                               </span>
                             {% endif %}
                         </div>
